@@ -1,0 +1,99 @@
+body {
+	background:#BFD9F5;
+	font-family:Helvetica, sans-serif;
+	height:100%;
+	margin:0;
+	text-align:center;
+	width:100%;
+}
+
+#inputs {
+	margin:0 auto;
+	width:600px;
+}
+
+#notes {
+	margin:40px auto auto auto;
+	width:600px;
+}
+
+
+/* ADDED NOTES PROPERTIES */
+
+#add-button {
+	background:#061423;
+	border:0;
+	color:#fff;
+	float:left;
+	font-size:12px;
+	padding:4px;
+	margin:20px auto 50px auto;
+}
+.date-added {
+	float:right;
+	font-size:10px;
+	margin:30px 30px auto auto;
+}
+
+.delete {
+	cursor:pointer;
+	display:block;
+	float:left;
+	font-size:9px;
+	padding:10px 0 0 10px;
+}
+
+.header {
+	overflow:hidden;
+	width:100%;
+}
+
+.sample-note {
+	background:#061423;
+	margin-bottom:10px;
+	color:#fff;
+}
+
+.subtitles-added, .titles-added {
+	padding:0 30px 0 30px;
+	text-align:left;
+}
+
+.subtitles-added {
+	display:block;
+	font-size:12px;
+	line-height:20px;
+	padding-bottom:30px;
+}
+
+.titles-added {
+	float:left;
+	font-size:25px;
+	height:50px;
+	line-height:50px;
+	padding-top:5px;
+	width:60%;
+}
+
+
+/* INPUT PROPERTIES */
+
+#subtitle-input, #title-input {
+	border:1px solid #061423;
+	display:block;
+}
+
+#subtitle-input {
+	font-size:13px;
+	height:60px;
+	margin:20px auto auto auto;
+	text-indent:15px;
+	width:100%;
+}
+
+#title-input {
+	font-size:13px;
+	height:30px;
+	text-indent:15px;
+	width:250px;
+}
